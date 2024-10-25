@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing styles -->
+
+    <!-- Ripple effect style -->
+    <style name="RippleStyleGray">
+        <item name="mrl_rippleOverlay">false</item>
+        <item name="mrl_rippleColor">#80080808</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+</resources>

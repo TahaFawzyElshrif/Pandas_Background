@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.Step1_image">
+
+
+    <!--android:clickable,focusable true here ,and false on inside ,to make action possible without error-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/mainPic"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_margin="50dp"
+            android:alpha=".9"
+            android:background="@drawable/upload_back"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/image_upload_lbl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/upload_image_button"
+                android:textSize="20sp"
+                android:fontFamily="@font/ceviche_one"
+                android:textColor="#5588ff"
+                />
+
+            <ImageButton
+                android:id="@+id/image_upload"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:background="@drawable/choose"
+                tools:layout_editor_absoluteX="323dp"
+                tools:layout_editor_absoluteY="154dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/back_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/upload_back_image_button"
+                android:textSize="20sp"
+                android:fontFamily="@font/ceviche_one"
+                android:textColor="#5588ff"/>
+            <ImageButton
+                android:id="@+id/choose_one"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+
+                android:background="@drawable/exist"
+ />
+            <ImageButton
+                android:id="@+id/upload_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:background="@drawable/choose"
+   />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radius_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/radius"
+                android:textSize="20sp"
+                android:fontFamily="@font/ceviche_one"
+                android:textColor="#5588ff"/>
+
+            <EditText
+                android:id="@+id/radius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="15sp"
+                android:hint="33"
+                tools:layout_editor_absoluteX="323dp"
+                tools:layout_editor_absoluteY="154dp" />
+        </LinearLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            style="@style/RippleStyleGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/next" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

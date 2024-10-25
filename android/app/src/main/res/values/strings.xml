@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">PandasBackground</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_effects_title" translatable="false">Picture Effects</string>
+    <string name="video_effects_title">Video Effects</string>
+    <string name="Imgremover">Back Remove</string>
+    <string name="ImgCam">TOF effect</string>
+    <string name="Imgreplacer">Back Replace</string>
+    <string name="VidCam">TOF effect</string>
+    <string name="Vidreplacer">Back Replace</string>
+    <string name="Vidremover">Back Remove</string>
+    <string name="upload_image_button">Upload Image</string>
+    <string name="upload_back_image_button">Upload Background Image</string>
+    <string name="radius">radius of blur</string>
+    <string name="things_change">Specify what to change?</string>
+
+    <string name="next">Next</string>
+    <string name="load">Uploading and processing...</string>
+    <string name="detected_things">Choose what to remove from?</string>
+    <string name="later_version">Sorry ! Will be available Later .</string>
+    <string name="VidVid">Replace by Video</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

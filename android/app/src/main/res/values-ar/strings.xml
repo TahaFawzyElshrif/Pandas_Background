@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_effects_title">تاثيراث صور</string>
+    <string name="video_effects_title">تاثيرات فيديو</string>
+    <string name="Imgremover" >مسح الخلفية</string>
+    <string name="ImgCam" >تاثير TOF</string>
+    <string name="Imgreplacer" >تبديل الخلفية</string>
+    <string name="VidCam" >تاثير TOF</string>
+    <string name="Vidreplacer" >تبديل الخلفية</string>
+    <string name="Vidremover" >مسح الخلفية</string>
+    <string name="upload_image_button">حط الصورة الاساسية</string>
+    <string name="upload_back_image_button">حط هنا بقى صورة الخلفية</string>
+    <string name="radius">قد اى تتاثر الكاميرا؟</string>
+    <string name="things_change">بص انت هنا حدد تمسح عن انهى كائن !</string>
+    <string name="next">التالى</string>
+    <string name="load">استنى التحميل والمعالجة ...</string>
+    <string name="detected_things">بص ده الحاجات ال ف الصورة ...عاوز تمسح عن انهى؟</string>
+    <string name="later_version">معلش يصحبى الميزة دى مش متوفرة دلوقتى</string>
+    <string name="VidVid">تبديل بخلفية فيديو</string>
+
+
+</resources>
