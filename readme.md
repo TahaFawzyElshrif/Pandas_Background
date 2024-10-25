@@ -19,8 +19,9 @@
 
 
 ## Installation
-1. Download the file from the [PandasBackground](https://github.com/username/repo).
-2. Accept Premession.
+1. Go to [PandasBackground](https://github.com/TahaFawzyElshrif/Pandas_Background/releases/tag/V1.0.0).
+2. install Apk from assets
+3. Accept Premession.
 
 ## Features
 1. Remove Background from Image
